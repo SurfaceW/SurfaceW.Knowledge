@@ -1,5 +1,7 @@
 # 前端技术概述
 
+> 以下的每一门技术我都必须使用之后，再加之以评论。
+
 ## 前端关注点（Experts）
 
 > 我们建立关注点的目的在于，让团队中的每一个具备产品基础研发能力的同时，有所专长，以至于达到一种多角放射的团队能力模型。
@@ -136,7 +138,7 @@
 ##### 单元测试
 
 - QUnit / Jasmine
-- Mocha / Should / Chai / Expect
+- **Mocha** / Should / Chai / Expect
 - UnitJS
 
 ##### 自动化测试
@@ -145,13 +147,15 @@
 - phantomjs
 - SourceLas / BrowserStack
 
-##### 性能
+##### 性能优化
 
 - JSPerf
 - YSlow 35 rules
 - PageSpeed
 - HTTPWatch
 - DynaTrace's Ajax
+- *purifycss*
+    - 删除没有使用的 CSS
 
 #### SEO
 
@@ -198,8 +202,9 @@
 
 - 图表展示：eCharts
 - 图书制作：gitbook
+- 异步编程：async(Node)
+- 动画工具：animate.css / move.js / TweenJS / bounce.js
 - ...
-
 
 
 ## 技术演变史
@@ -247,6 +252,15 @@
 - 高度复杂化的多样技术的引入，有点百家争鸣的感觉，从而也迸发了前端无限的生机和活力
     - Canvas / WebGL ...
 
+
+## 综合资源
+
+[Front-end Development](https://github.com/dypsilon/frontend-dev-bookmarks)
+[中文资源参考](https://github.com/foru17/front-end-collect)
+[前端面试的资料](https://github.com/hawx1993/Front-end-Interview-questions)
+[Awesome JavaScript Library](https://github.com/sorrycc/awesome-javascript)
+[NodeJS 中文资料](https://github.com/youyudehexie/node123)
+[Mobile 研发](https://github.com/hoosin/mobile-web-favorites)
 
 ---
 
