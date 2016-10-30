@@ -2,29 +2,30 @@
 
 > 以下的每一门技术我都必须使用之后，再加之以评论。
 
-## 前端关注点（Experts）
+## 前端关注点（Expert Domains）
 
 > 我们建立关注点的目的在于，让团队中的每一个具备产品基础研发能力的同时，有所专长，以至于达到一种多角放射的团队能力模型。
 
 ### App 架构、框架、工程化构建技术
 
-> 为 App 的功能实现提供最基本的支持。也是 App 的中流砥柱。
+> 为 App 的功能实现提供最基本的支持，也是 App 的中流砥柱。
 
 - App 程序的架构和设计
+    - 技术选型
+    - 程序架构：[一般前端架构](./前端工程/一般前端架构设计.md)
 - 框架的设计
 - 工具的设计
-- 工程化
-    - 自动化部署
-    - 自动化测试
-    - 自动化上线
+- 前端工程化
+    - 自动化开发、测试、部署、上线
+    - 模块化、组件化
+    - 规范化 ...
 
 
 ### 视觉展现和交互技术
 
 - 平面设计 Graphic Design
     - 平面设计的基础知识
-    - 平面设计工具的使用
-        - PS Ai Sketch
+    - 平面设计工具的使用：PS / Ai / Sketch
     - 视觉设计所需要的：素养、积累、灵感
 - 交互设计
     - 交互设计的基本知识
@@ -33,7 +34,7 @@
     - 三维基础知识
     - 媒体基础知识
     - 动画制作知识
-- 程序实现
+- 视觉、交互体验的程序实现
     - 图像技术
         - 滤镜技术
     - 动画技术
@@ -50,6 +51,7 @@
         - 访问日志
         - 点击日志
         - 错误日志
+    - 访问分析：日志分析
 - 数据监控
 
 ### 通信、存储、安全技术
@@ -66,10 +68,12 @@
 - 编程知识
     - 数据结构
     - OOP / AOP
-    - 原型链 / 作用域链
+    - 原型链和原型继承
+    - 作用域和作用域链
     - 闭包
-    - 编程范型
+    - 编程规范
     - 设计模式
+    - 函数式编程思想
     - ...
 - 浏览器知识：Trident(IE Series) / Firefox(Gecko) / Chrome(Blink) / Safari(Webkit) / Opera(Blink)
     - 浏览器的工作原理（网络模块、渲染模块）
@@ -207,8 +211,8 @@
 - 图书制作：gitbook
 - 异步编程：async(Node)
 - 动画工具：animate.css / move.js / TweenJS / bounce.js
-- ...
-
+- 模板引擎：Jade、dust、underscroe_template ...
+	- [模板引擎推器](https://garann.github.io/template-chooser/)
 
 ## 技术演变史
 
@@ -258,18 +262,16 @@
 
 ## 综合资源
 
-[Front-end Development](https://github.com/dypsilon/frontend-dev-bookmarks)
-[中文资源参考](https://github.com/foru17/front-end-collect)
-[前端面试的资料](https://github.com/hawx1993/Front-end-Interview-questions)
-[Awesome JavaScript Library](https://github.com/sorrycc/awesome-javascript)
-[NodeJS 中文资料](https://github.com/youyudehexie/node123)
-[Mobile 研发](https://github.com/hoosin/mobile-web-favorites)
+- [Front-end Development](https://github.com/dypsilon/frontend-dev-bookmarks)
+- [中文资源参考](https://github.com/foru17/front-end-collect)
+- [前端面试的资料](https://github.com/hawx1993/Front-end-Interview-questions)
+- [Awesome JavaScript Library](https://github.com/sorrycc/awesome-javascript)
+- [NodeJS 中文资料](https://github.com/youyudehexie/node123)
+- [Mobile 研发](https://github.com/hoosin/mobile-web-favorites)
 
 ---
 
 参考文章：
 
-[前端技能树: FKS](https://github.com/JacksonTian/fks)
+- [前端技能树: FKS](https://github.com/JacksonTian/fks)
 
-----
-version 1.1 via 2015年03月06日 凭借现在的理解所写
